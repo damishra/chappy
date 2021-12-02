@@ -1,0 +1,26 @@
+{
+	"name": "chappy",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"author": "damishra <damishra@protonmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://githib.com/damishra/chappy.git"
+	},
+	"devDependencies": {
+		"@types/node": "^16.11.11",
+		"@types/sqlite3": "^3.1.7",
+		"@types/ws": "^8.2.1",
+		"typescript": "^4.5.2"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"sqlite3": "^5.0.2",
+		"ws": "^8.3.0"
+	},
+	"scripts": {
+		"prestart": "mkdir logs || tsc",
+		"start": "node build"
+	}
+}

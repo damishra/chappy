@@ -1,0 +1,10 @@
+node_modules
+logs
+**/*.js
+package-lock.json
+yarn.lock
+chappy.conf
+build
+.vscode
+.next
+**/*.db
